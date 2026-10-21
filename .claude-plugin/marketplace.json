@@ -1,0 +1,16 @@
+{
+  "name": "rocodrama-novel",
+  "description": "웹소설 작업 공통 스킬 모음",
+  "owner": {
+    "name": "rocodrama"
+  },
+  "plugins": [
+    {
+      "name": "novel-skills",
+      "description": "웹소설 작업 공통 스킬 (webnovel-writer-ko와 함께 사용)",
+      "version": "0.1.0",
+      "source": "./novel-skills",
+      "category": "productivity"
+    }
+  ]
+}
