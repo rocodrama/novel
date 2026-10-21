@@ -32,8 +32,6 @@ description: 언제 이 스킬을 쓰는지 한두 문장으로
 
 ## 설치
 
-비공개 저장소라서 GitHub에 로그인된 git이 필요합니다.
-
 ```bash
 claude plugin marketplace add rocodrama/novel --scope user
 ```
