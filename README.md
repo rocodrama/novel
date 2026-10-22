@@ -15,6 +15,16 @@ common/                      # 이 저장소
 └── webnovel-writer/         # 별도 저장소(webnovel-writer-ko), 여기서는 제외
 ```
 
+## 스킬 목록
+
+| 스킬 | 언제 쓰나 | 하는 일 |
+|---|---|---|
+| `episode-finish` | 회차를 다 쓴 뒤 | 분량(5,000자 이상)·AI 티 점검(스크립트 + humanize-scan), Codex 교차 검수, 웹소설식 회차 제목, webnovel-writer-ko 커밋, 드라이브 백업, 노션 회차 표·집필 메모 갱신 |
+| `new-work-setup` | 새 작품을 시작할 때 | 제목 중복 확인, 노션 작품 페이지(하위 페이지 8개 + 회차 관리 표), 작품 폴더 초기화, 드라이브 폴더, 작품 CLAUDE.md |
+| `character-design` | 설정이 확정된 뒤 | 설정집 기반 이미지 프롬프트, Codex 병렬 생성, 드라이브 저장, 노션 '3. 비주얼' 업로드와 인물 관계도 |
+
+필요한 것: webnovel-writer-ko 플러그인, Codex CLI(ChatGPT 로그인), 노션 연결, humanize-korean 플러그인(선택).
+
 ## 스킬 추가하기
 
 `novel-skills/skills/<스킬이름>/SKILL.md` 파일을 만듭니다.
